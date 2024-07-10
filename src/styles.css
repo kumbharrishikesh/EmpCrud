@@ -1,0 +1,190 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+
+div.container {
+    margin: 0px 40px;
+}
+
+.fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+}
+
+form.normal-form {
+    margin: 10px;
+}
+
+.controles-container {
+    width: 100%;
+    padding: 5%;
+}
+
+.controles-container>* {
+    width: 100%;
+}
+
+.add-bottom-padding {
+    padding-bottom: 10px;
+}
+
+/* radio group */
+mat-radio-group mat-radio-button {
+    margin-left: 5px;
+}
+
+.button-row button {
+    margin: 5px;
+}
+
+mat-toolbar {
+    background-color: darkslateblue !important;
+    color: white !important;
+    height: 50px !important;
+    text-size-adjust: auto !important;
+    text-transform: uppercase !important;
+}
+
+/* notification */
+
+.success-snackbar {    
+    .mdc-snackbar__surface {
+        background-color: green !important;
+      }
+    
+      .mdc-snackbar__label {
+        color: white !important;
+      }
+}
+
+.update-snackbar {    
+    .mdc-snackbar__surface {
+        background-color: #f99157 !important;   
+      }
+    
+      .mdc-snackbar__label {
+        color: white !important;
+      }
+}
+
+.remove-snackbar {    
+    .mdc-snackbar__surface {
+        background-color: crimson !important;
+      }
+    
+      .mdc-snackbar__label {
+        color: white !important;
+      }
+}
+
+.mdc-snack-bar.notification .mdc-simple-snack-bar {
+    .mdc-snackbar__label {
+    font-size: 28px !important;
+    font-weight: bold !important;    
+    }
+}
+
+/* mat-table */
+mat-footer-row mat-footer-cell {
+    justify-content: center;
+    font-style: italic;
+}
+
+/* filter controls */
+.search-div {
+    margin: 10px;
+    height: 48px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.search-form-field {
+    width: 90%;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 0px;
+    height: 70px;
+}
+
+.search-form-field div.mat-form-field-underline {
+    display: none;
+}
+
+.search-form-field div.mat-form-field-infix {
+    border-top: 0px;
+}
+
+.search-form-field div.mat-form-field-wrapper {
+    padding-bottom: 0px;
+}
+
+.search-form-field div.mat-form-field-suffix button {
+    height: 5px;
+    width: 5px;
+}
+
+/* for dialog pop-up */
+.btn-dialog-close {
+    width: 20px !important;
+    min-width: 0px !important;
+    height: 20px !important;
+    padding: 0px !important;
+    background-color: red !important;
+    border-radius: 30px !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+/* mat-confirm-dialog (customised dialog) */
+.confirm-dialog-container .mat-dialog-container {
+    /* border-radius: .25em .25em .4em .4em; */
+    padding: 0px;
+    background-color: whitesmoke !important;
+}
+
+.confirm-dialog-container .content-container {
+    margin: 5px 5px 15px 5px;
+    color: black;
+    display: flex;
+}
+
+/* .confirm-dialog-container #close-icon {
+    margin-left: auto;
+    order: 2;
+    font-weight: bolder;
+    width: 20px !important;
+    min-width: 0px !important;
+    height: 20px !important;
+    padding: 0px !important;
+    background-color: red !important;
+    border-radius: 30px !important;
+    color: white !important;
+    border-color: white !important;
+} */
+
+.confirm-dialog-container #close-icon:hover {
+    cursor: pointer;
+}
+
+.confirm-dialog-container #no-button {
+    height: 50px;
+    width: 50%;
+    background-color: red;
+    color: white;
+    border-radius: 0px;
+}
+
+.confirm-dialog-container #yes-button {
+    height: 50px;
+    width: 50%;
+    background-color: green;
+    color: white;
+    border-radius: 0px;
+}
+
+.confirm-dialog-container span.content-span {
+    padding: 35px 16px;
+    text-align: center;
+    font-size: auto;
+}
